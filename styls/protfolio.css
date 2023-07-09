@@ -98,11 +98,16 @@ nav a {
 }
 
 /* this is main section */
+main {
+    max-width: 1100px;
+    margin: 0px auto;
+}
 
 .about {
-    padding: 150px;
+    padding: 60px;
     border-radius: 10px;
     background: #FFF8F3;
+    margin: 120px 0px;
 }
 
 .section-title {
@@ -110,4 +115,18 @@ nav a {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+}
+
+.section-description {
+    color: var(--dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+}
+.info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-info{
+    align-items: center;
 }
