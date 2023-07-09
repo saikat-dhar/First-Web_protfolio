@@ -1,3 +1,4 @@
+/* this is nav bar section */
 body {
     font-family: 'Open Sans', sans-serif;
     
@@ -6,6 +7,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 120px;
 
 }
 .nav-title{
@@ -39,3 +41,14 @@ nav a {
 
 }
 
+/* this is banner section */
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-img{
+    width: 524px;
+    height: 576px;
+}
