@@ -102,6 +102,9 @@ main {
     max-width: 1100px;
     margin: 0px auto;
 }
+main section{
+    margin-top: 130px;
+}
 
 .about {
     padding: 60px;
@@ -121,6 +124,7 @@ main {
     color: var(--dark-03, #757575);
     font-size: 18px;
     font-weight: 400;
+    margin: 20px auto;
 }
 
 .info-container {
@@ -136,5 +140,28 @@ main {
     font-weight: 400;
 }
 #what{
-    padding: 30px 150px;
+    padding: 30px 120px;
+    
+
+}
+
+.section-container{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    
+}
+.section-class{
+    padding: 30px 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: #474747;
+    
+}
+
+.section-text{
+    color: blue;
+}
+.section-title{
+    margin-top: 60px;
 }
