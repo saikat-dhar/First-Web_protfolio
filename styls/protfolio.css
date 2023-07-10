@@ -102,7 +102,8 @@ main {
     max-width: 1100px;
     margin: 0px auto;
 }
-main section{
+
+main section {
     margin-top: 130px;
 }
 
@@ -139,29 +140,44 @@ main section{
     font-size: 20px;
     font-weight: 400;
 }
-#what{
+
+#what {
     padding: 30px 120px;
-    
+
 
 }
 
-.section-container{
+.section-container {
     display: flex;
     align-items: center;
     gap: 24px;
-    
+
 }
-.section-class{
+
+.section-class {
     padding: 30px 10px;
     border-radius: 5px;
     background-color: whitesmoke;
     box-shadow: #474747;
-    
+
 }
 
-.section-text{
+.section-text {
     color: blue;
 }
-.section-title{
+
+.section-title {
     margin-top: 60px;
+}
+
+
+/* this is resume section css */
+
+.resume-head {
+    font-size: 30px;
+    font-weight: 700;
+    color: #181818;
+}
+.resume-container{
+    display: flex;
 }
